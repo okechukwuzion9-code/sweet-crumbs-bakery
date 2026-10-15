@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Sweet Crumbs Café & Bakery - Freshly baked pastries, cakes and coffee made with love.">
+
+    <title>Sweet Crumbs Café & Bakery</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header class="header">
+        <nav class="navbar container">
+
+            <a href="#home" class="logo">
+                <span class="logo-icon">✦</span>
+                <span>Sweet Crumbs</span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#menu" class="nav-link">Menu</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode">
+                🌙
+            </button>
+
+        </nav>
+    </header>
+
+
+    <!-- ================= HOME ================= -->
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content container">
+
+                <p class="hero-label">Freshly baked. Made with love.</p>
+
+                <h1>
+                    A Little Taste of
+                    <span>Happiness.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Discover delicious pastries, handcrafted cakes and
+                    freshly brewed coffee in a warm and welcoming atmosphere.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#menu" class="btn btn-primary">
+                        Explore Our Menu
+                    </a>
+
+                    <a href="#contact" class="btn btn-outline">
+                        Visit Us
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FEATURES ================= -->
+        <section class="features">
+            <div class="container features-grid">
+
+                <article class="feature-card">
+                    <div class="feature-icon">🥐</div>
+                    <h3>Freshly Baked</h3>
+                    <p>
+                        Our pastries are baked fresh every morning using
+                        quality ingredients.
+                    </p>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon">☕</div>
+                    <h3>Perfect Coffee</h3>
+                    <p>
+                        Enjoy carefully brewed coffee made from freshly
+                        roasted beans.
+                    </p>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon">♥</div>
+                    <h3>Made With Love</h3>
+                    <p>
+                        Every treat is prepared with passion to give you
+                        a memorable experience.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+        <section class="about section" id="about">
+
+            <div class="container about-grid">
+
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=900&q=80"
+                        alt="Freshly baked croissants and pastries">
+
+                    <div class="experience-badge">
+                        <strong>10+</strong>
+                        <span>Years of<br>Sweet Moments</span>
+                    </div>
+                </div>
+
+                <div class="about-content">
+
+                    <p class="section-label">Our Story</p>
+
+                    <h2>Where Every Crumb Tells a Story</h2>
+
+                    <p>
+                        Sweet Crumbs Café & Bakery started with a simple
+                        dream: to create a cozy place where people could
+                        enjoy freshly baked treats and great coffee.
+                    </p>
+
+                    <p>
+                        From our buttery croissants to our signature cakes,
+                        everything is prepared with carefully selected
+                        ingredients and plenty of love.
+                    </p>
+
+                    <div class="about-highlights">
+                        <div>
+                            <strong>100%</strong>
+                            <span>Fresh Ingredients</span>
+                        </div>
+
+                        <div>
+                            <strong>Daily</strong>
+                            <span>Freshly Baked</span>
+                        </div>
+
+                        <div>
+                            <strong>10+</strong>
+                            <span>Years of Experience</span>
+                        </div>
+                    </div>
+
+                    <a href="#contact" class="text-link">
+                        Come Say Hello →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= MENU ================= -->
+        <section class="menu-section section" id="menu">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="section-label">Our Menu</p>
+
+                    <h2>Made Fresh, Just for You</h2>
+
+                    <p>
+                        From morning coffee to afternoon treats,
+                        there's something delicious waiting for you.
+                    </p>
+                </div>
+
+
+                <div class="menu-grid">
+
+                    <!-- Pastries -->
+                    <article class="menu-card">
+                        <div class="menu-image">
+                            <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=700&q=80"
+                                alt="Fresh bakery bread">
+                        </div>
+
+                        <div class="menu-content">
+                            <div class="menu-title">
+                                <h3>Butter Croissant</h3>
+                                <span>₦2,500</span>
+                            </div>
+
+                            <p>
+                                Flaky, buttery and freshly baked to
+                                golden perfection.
+                            </p>
+
+                            <span class="menu-category">Pastry</span>
+                        </div>
+                    </article>
+
+
+                    <!-- Cake -->
+                    <article class="menu-card">
+                        <div class="menu-image">
+                            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=700&q=80"
+                                alt="Chocolate cake">
+                        </div>
+
+                        <div class="menu-content">
+                            <div class="menu-title">
+                                <h3>Chocolate Cake</h3>
+                                <span>₦6,500</span>
+                            </div>
+
+                            <p>
+                                Rich chocolate cake covered with
+                                smooth chocolate frosting.
+                            </p>
+
+                            <span class="menu-category">Cake</span>
+                        </div>
+                    </article>
+
+
+                    <!-- Coffee -->
+                    <article class="menu-card">
+                        <div class="menu-image">
+                            <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=700&q=80"
+                                alt="Fresh cup of coffee">
+                        </div>
+
+                        <div class="menu-content">
+                            <div class="menu-title">
+                                <h3>Cappuccino</h3>
+                                <span>₦3,500</span>
+                            </div>
+
+                            <p>
+                                Smooth espresso topped with creamy
+                                steamed milk and foam.
+                            </p>
+
+                            <span class="menu-category">Coffee</span>
+                        </div>
+                    </article>
+
+
+                    <!-- Cinnamon Roll -->
+                    <article class="menu-card">
+                        <div class="menu-image">
+                            <img src="https://images.unsplash.com/photo-1509365465985-25d11c17e812?auto=format&fit=crop&w=700&q=80"
+                                alt="Fresh cinnamon rolls">
+                        </div>
+
+                        <div class="menu-content">
+                            <div class="menu-title">
+                                <h3>Cinnamon Roll</h3>
+                                <span>₦3,000</span>
+                            </div>
+
+                            <p>
+                                Soft, warm and sweet with cinnamon
+                                sugar and cream glaze.
+                            </p>
+
+                            <span class="menu-category">Pastry</span>
+                        </div>
+                    </article>
+
+
+                    <!-- Cheesecake -->
+                    <article class="menu-card">
+                        <div class="menu-image">
+                            <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=700&q=80"
+                                alt="Strawberry cheesecake">
+                        </div>
+
+                        <div class="menu-content">
+                            <div class="menu-title">
+                                <h3>Berry Cheesecake</h3>
+                                <span>₦5,500</span>
+                            </div>
+
+                            <p>
+                                Creamy cheesecake topped with fresh
+                                seasonal berries.
+                            </p>
+
+                            <span class="menu-category">Cake</span>
+                        </div>
+                    </article>
+
+
+                    <!-- Iced Coffee -->
+                    <article class="menu-card">
+                        <div class="menu-image">
+                            <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=700&q=80"
+                                alt="Iced coffee">
+                        </div>
+
+                        <div class="menu-content">
+                            <div class="menu-title">
+                                <h3>Iced Latte</h3>
+                                <span>₦3,800</span>
+                            </div>
+
+                            <p>
+                                Chilled espresso blended with creamy
+                                milk and served over ice.
+                            </p>
+
+                            <span class="menu-category">Coffee</span>
+                        </div>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CTA ================= -->
+        <section class="cta">
+
+            <div class="container cta-content">
+
+                <p class="section-label">A Table Is Waiting</p>
+
+                <h2>Your Next Favorite Café Is Here.</h2>
+
+                <p>
+                    Stop by for a warm cup of coffee and something
+                    freshly baked.
+                </p>
+
+                <a href="#contact" class="btn btn-light">
+                    Find Us Today
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+        <section class="contact section" id="contact">
+
+            <div class="container contact-grid">
+
+                <div class="contact-info">
+
+                    <p class="section-label">Get In Touch</p>
+
+                    <h2>Come Visit Us</h2>
+
+                    <p>
+                        We'd love to welcome you. Drop by for a coffee,
+                        grab your favorite pastry, or simply relax with us.
+                    </p>
+
+
+                    <div class="contact-details">
+
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+
+                            <div>
+                                <h3>Our Location</h3>
+                                <p>
+                                    24 Garden Avenue,<br>
+                                    Abuja, Nigeria
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+
+                            <div>
+                                <h3>Phone</h3>
+                                <p>+234 800 123 4567</p>
+                            </div>
+                        </div>
+
+
+                        <div class="contact-item">
+                            <div class="contact-icon">✉</div>
+
+                            <div>
+                                <h3>Email</h3>
+                                <p>hello@sweetcrumbs.example</p>
+                            </div>
+                        </div>
+
+
+                        <div class="contact-item">
+                            <div class="contact-icon">🕐</div>
+
+                            <div>
+                                <h3>Opening Hours</h3>
+                                <p>
+                                    Monday – Saturday: 7:00 AM – 9:00 PM<br>
+                                    Sunday: 8:00 AM – 7:00 PM
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper">
+
+                    <h3>Send Us a Message</h3>
+
+                    <p>
+                        Have a question or want to make an enquiry?
+                        Send us a message.
+                    </p>
+
+                    <form id="contactForm" novalidate>
+
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+
+                            <input type="text" id="name" name="name" placeholder="Enter your name">
+
+                            <small class="error-message" id="nameError"></small>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+
+                            <input type="email" id="email" name="email" placeholder="Enter your email">
+
+                            <small class="error-message" id="emailError"></small>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+
+                            <textarea id="message" name="message" rows="5" placeholder="Write your message">
+                            </textarea>
+
+                            <div class="character-counter">
+                                <span id="characterCount">0</span>/300 characters
+                            </div>
+
+                            <small class="error-message" id="messageError"></small>
+                        </div>
+
+
+                        <button type="submit" class="btn btn-primary form-button">
+                            Send Message
+                        </button>
+
+                        <div id="formSuccess" class="success-message" role="alert">
+                            Your message has been sent successfully!
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <div class="footer-brand">
+                <a href="#home" class="logo">
+                    <span class="logo-icon">✦</span>
+                    <span>Sweet Crumbs</span>
+                </a>
+
+                <p>
+                    Freshly baked happiness, one crumb at a time.
+                </p>
+            </div>
+
+
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+
+                <div class="social-links">
+                    <a href="#" aria-label="Instagram">Instagram</a>
+                    <a href="#" aria-label="Facebook">Facebook</a>
+                    <a href="#" aria-label="TikTok">TikTok</a>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+            <p>
+                &copy; <span id="currentYear"></span>
+                Sweet Crumbs Café & Bakery. All rights reserved.
+            </p>
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>

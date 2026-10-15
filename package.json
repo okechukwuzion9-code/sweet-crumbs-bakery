@@ -1,0 +1,18 @@
+
+{
+  "name": "sweet-crumbs-bakery",
+  "version": "1.0.0",
+  "description": "Sweet Crumbs Cafe and Bakery website with a Node.js backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "bakery",
+    "cafe",
+    "website"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {}
+}
