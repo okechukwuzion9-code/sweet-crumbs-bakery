@@ -4,7 +4,7 @@ const fs = require("fs");
 const path = require("path");
 const crypto = require("crypto");
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 const ROOT = __dirname;
 const DATA_DIR = path.join(ROOT, "data");
 const DB_FILE = path.join(DATA_DIR, "messages.json");
@@ -128,6 +128,6 @@ const server = http.createServer(async (req, res) => {
     });
 });
 
-server.listen(PORT, "127.0.0.1", () => {
-    console.log(`Website running at http://127.0.0.1:${PORT}`);
+server.listen(PORT, "0.0.0.0", () => {
+  console.log(`Website running on port ${PORT}`);
 });
